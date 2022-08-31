@@ -1,0 +1,40 @@
+/target/
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.DS_Store
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+bootstrap-localhost.yml
+### VS Code ###
+.vscode/
+/services/emp-publish-service/src/test/
+/services/emp-publish-service/src/test/java/
+logback-spring-localhost.xml
+
+*.flattened-pom.xml
